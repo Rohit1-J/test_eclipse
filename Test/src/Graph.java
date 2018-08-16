@@ -26,7 +26,7 @@ public class Graph {
 	}
 
 	public Iterator<Integer> adjList(int u) {
-		return adjList[u].iterator();
+		return adjList[u].listIterator();
 	}
 
 }
